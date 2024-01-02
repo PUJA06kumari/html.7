@@ -2,90 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>My Projects</title>
-    <style>
-        table,th,td
-        { border:3px solid red}
-    </style>
-    <link rel="stylesheet" href="styleeee.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="./index.html" download>Download my projects</a>
-    <h1><u>PROJECTS</u></h1>
-    <table style="width:80%">
-        <tr>
-            <th>S.No</th>
-            <th> HTML Projects</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>www project</td>
-            <td><a href="./world wide web project.html">Click</a></td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>w3c Project</td>
-            <td><a href="./2nd project.html">Click</a></td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>Time Table</td>
-            <td><a href="./timetable.html">Click</a></td>
-        </tr>
-        <tr>
-            <td>4.</td>
-        <td>Resume</td>
-        <td><a href="./resume.html">Click</a></td>
-    </tr>
-    <tr>
-        <td>5.</td>
-        <td>List</td>
-        <td><a href="./List.html">Click</a></td>
-    </tr>
-    <tr>
-        <td>6.</td>
-        <td>Result</td>
-        <td><a href="./p.html">Click</a></td>
-    </tr>
-    <tr>
-        <td>7.</td>
-        <td>Project</td>
-        <td><a href="./project.html">Click</a></td>
-    </tr>
-    <tr>
-        <td>8.</td>
-        <td>Form</td>
-        <td><a href="./form.html">Click</a></td>
-    </tr>
-     <tr>
-        <th>S.No</th>
-        <th> CSS Projects</th>
-        <th>Link</th>
-    </tr>
-    <tr>
-        
-        <td>10.</td>
-        <td>1st css project</td>
-        <td><a href="./1st css.html">Click</a></td>
-    
-    </tr>
-    <tr>
-        <td>11.</td>
-        <td>traffic</td>
-        <td><a href="./index copy.html">Click</a></td>
-    </tr>
-    <tr>
-        <td>12.</td>
-        <td>Sneaker Shop</td>
-        <td><a href="./sneaker copy/index.html">Click</a></td>
-    </tr>
-    <tr>
-        <td>13.</td>
-        <td>Magazine</td>
-        <td><a href="./webpage/index.html">Click</a></td>
-    </tr>
-    </table>
+    <header class="hero">
+        <div class="container spacing">
+            <h1 class="primary-title">It's okay to be a little obsessed with shoes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+                perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+                <a href="" class="btn">See what we have</a>
+        </div>
+ </header>
+ <main>
+    <section class="featured">
+        <div class="container">
+            <h2 class="fed">Featured sneakers</h2>
+        <div class="split">
+            <a href="" class="featured__item">
+                <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-4.png?raw=true" alt="this is the img" class="featured__img" width="300px">
+                <p class="featured__details"><span class="price">$99</span>shoe name</p>
+            </a>
+            <a href="" class="featured__item">
+                <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-5.png?raw=true" alt="this is the img" class="featured__img" width="300px">
+                <p class="featured__details"><span class="price">$99</span>shoe name</p>
+            </a>
+            <a href="" class="featured__item">
+                <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-6.png?raw=true" alt="this is the img" class="featured__img" width="300px">
+                <p class="featured__details"><span class="price">$99</span>shoe name</p>
+            </a>
+        </div>
+        </div>
+    </section>
+    <section class="our-products">
+        <div class="container">
+            <h2 class="fed">Our sneakers</h2>
+            <article class="product shoe-red-spacing">
+                <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-1.png?raw=true" alt="" class="product__image">
+                <h3 class="product__title">A really nice shoe</h3>
+                <p class="product__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+                    perspiciatis facilis beatae laudantium quidem enim sit sequi!
+                  </p>
+                  <a href="" class="btn">Buy Now</a>
+            </article>
+            <article class="product shoe-white shoe-left spacing">
+                <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-2.png?raw=true" alt="" class="product__image">
+                <h3 class="product__title">A really nice shoe</h3>
+                <p class="product__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+                    perspiciatis facilis beatae laudantium quidem enim sit sequi!
+                  </p>
+                  <a href="" class="btn">Buy Now</a>
+            </article>
+            <article class="product shoe-white shoe-blue spacing">
+                <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-3.png?raw=true" alt="" class="product__image">
+                <h3 class="product__title">A really nice shoe</h3>
+                <p class="product__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+                    perspiciatis facilis beatae laudantium quidem enim sit sequi!
+                  </p>
+                  <a href="" class="btn">Buy Now</a>
+            </article>
+        </div>
+    </section>
+ </main>
 </body>
 </html>
